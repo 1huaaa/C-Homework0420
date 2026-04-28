@@ -9,9 +9,9 @@
             int number = int.Parse(input);
 
             if (number % 2 == 0)
-                Console.WriteLine("這是偶數");
+                Console.WriteLine("這是偶數:");
             else
-                Console.WriteLine("這是奇數");
+                Console.WriteLine("這是奇數:");
 
 
 
