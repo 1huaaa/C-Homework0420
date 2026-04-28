@@ -15,7 +15,7 @@
             {
                 int num = int.Parse(item);
 
-                if(num % 2 == 0)
+                if (num % 2 == 0)
                 {
                     evenList.Add(num);
                 }
@@ -27,10 +27,11 @@
                 oddList.Sort();
                 evenList.Sort();
 
-               
-                Console.WriteLine("奇數: " + string.Join(",", oddList));
-                Console.WriteLine("偶數: " + string.Join(",", evenList));
+
             }
+                Console.WriteLine("奇數 : " + string.Join(",", oddList));
+                Console.WriteLine("偶數 : " + string.Join(",", evenList));
+            
 
 
 
